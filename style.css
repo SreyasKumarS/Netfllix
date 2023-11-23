@@ -1,0 +1,250 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+  box-sizing: border-box;
+}
+
+
+body{
+  background-color: black;
+  color: white;
+
+}
+.header{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.8)), url(images/background\ image.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 10px 8% ;
+  position: relative;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+.logo{
+  width: 148px;
+  height: 40px;
+}
+nav button{
+  border: 0;
+  outline: 100;
+  background-color: #db0001;
+  color: #fff;
+  padding: 7px 20px;
+  font-size: 12px;
+  border-radius: 4px;
+  margin-left: 10px;
+  cursor: pointer;
+
+}
+.language-change-button{
+  display: inline-flex;
+  align-items: center;
+  background: transparent;
+  border: 3px solid;
+  padding: 10px 30px;
+  border-radius: 8px;
+}
+.language-change-button img{
+  width: 10px;
+  margin-left: 10px;
+}
+.header-content{
+  width: auto;
+  position: absolute;
+  top: 25%;
+  left: 16%;
+  text-align: center;
+  margin-top: 100px;
+}
+.header-content h1{
+  display: flex;
+  flex: 1;
+  font-size: 50px;
+  line-height: 70px;
+  font-weight: 700;
+}
+
+.header-content h3{
+  
+  font-size: 25px;
+  line-height: 35x;
+  font-weight: 30;
+  
+}
+.header-content p{
+  font-size: 21px;
+  line-height: 55px;
+  font-weight: 110;
+ 
+}
+
+.email-signup{
+  background: #fff;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  overflow: hidden;
+  background: transparent;
+  border: 0.01px solid;
+  border-color: gray;
+  width: 550px;
+  margin-left: 300px;
+  margin-right: 300px;
+  
+}
+.email-signup input{
+  flex: 1;
+  border:0;
+  outline: 0;
+  margin-left: 20px;
+  background: transparent;
+}
+.email-signup button{
+  background: #db0001;
+  border: 0;
+  outline: 0;
+  color:#fff;
+  font-size: 16px;
+  cursor:pointer;
+  padding:15px 30px;
+}
+.get-start-button{
+  margin-left: 20px;
+}
+--------------------------------/features/
+
+.features{
+  padding: 50px 12px;
+  font-size: 22px;
+}
+.row{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 50px 0;
+}
+.text-col{
+  flex-basis: 50%;
+  margin-bottom: 20px;
+}
+.img-col{
+  flex-basis: 50%;
+  margin-bottom: 20px;
+}
+.img-col img{
+  display: block;
+  width: 90%;
+  margin: auto;
+}
+.features h2{
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+
+.faq{
+  padding:10px 12%;
+  text-align: center;
+  font-size: 18px;
+}
+.faq h2{
+  font-weight: 500;
+  font-size: 60px;
+  
+}
+.faq-qs{
+  margin:60px auto;
+  width: 100%;
+  max-width: 750px;
+}
+.faq-qs li{
+  list-style:none;
+  width: 100%;
+  padding: 5px;
+}
+.faq-qs li label{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  font-size: 18px;
+  background: #303030;
+  margin-bottom: 2px;
+  cursor: pointer;
+  position: relative;
+}
+label::after{
+  font-size: 34px;
+  position: absolute;
+  right: 20px;
+  transition: transform 0.5s;
+}
+input[type="radio"]{
+  display: none;
+}
+.faq-qs .content{
+  background: #303030;
+  text-align: left;
+  padding: 0 20px;
+  max-height: 0 ;
+  overflow: hidden;
+  transition: max-height 0.3s, padding 0.3s;
+}
+
+.faq .email-signup{
+
+  max-width: 600px;
+  margin: 20px auto 60px;
+}
+.faq small{
+  font-size: 13px;
+}
+
+/*------footer------*/
+
+.footer{
+  padding: 50px 15% 10px;
+  border-top: 6px solid #333;
+  color:#777;
+}
+.footer h2{
+  font-size: 18px;
+  font-family: 400;
+  margin-bottom: 30px;
+}
+.footer .col{
+  flex-basis: 25%;
+  flex-grow: 1;
+  margin-bottom: 20px;
+
+}
+.footer .col a{
+  display: block;
+  text-decoration: none;
+  color: #777;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.footer .row{
+  align-items: flex-start;
+  padding: 10px 0;
+}
+.footer .language-change-button{
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 3px;
+}
+.copyright-text{
+  font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
